@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauté Naturelle - Cosmétiques Bio</title>
+    <style>
+        /* COULEUR DE FOND + POLICE + MAX-WIDTH */
+        body {
+            background-color: #FFF8F0; /* fond beige clair */
+            font-family: 'Georgia', serif; /* police de caractères */
+            margin: 0;
+            padding: 0;
+            color: #4A3B2A;
+        }
+
+        .container {
+            max-width: 1100px; /* max-width */
+            margin: 0 auto; /* centrer */
+            padding: 20px; /* padding */
+        }
+
+        /* TITRE PRINCIPAL H1 */
+        h1 {
+            color: #C2185B; /* couleur */
+            text-align: center;
+            font-size: 2.8em;
+            margin-bottom: 20px; /* margin */
+            padding: 15px; /* padding */
+        }
+
+        /* MENU AVEC 4 LIENS + HOVER */
+        nav {
+            background-color: #C2185B; /* couleur de fond */
+            padding: 15px; /* padding */
+            border-radius: 12px; /* border-radius */
+            margin-bottom: 40px; /* margin */
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            color: white; /* couleur */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 18px; /* padding */
+            border-radius: 8px; /* border-radius */
+            transition: 0.3s;
+        }
+
+        nav a:hover { /* EFFET HOVER */
+            background-color: #F06292; /* couleur au survol */
+            color: white;
+        }
+
+        /* SECTIONS AVEC BORDURES */
+        section {
+            background-color: white; /* couleur de fond */
+            padding: 30px; /* padding */
+            margin-bottom: 35px; /* margin */
+            border: 2px solid #F8BBD0; /* bordure */
+            border-radius: 15px; /* border-radius */
+        }
+
+        h2 {
+            color: #C2185B; /* couleur */
+            border-bottom: 3px solid #F8BBD0; /* bordure */
+            padding-bottom: 8px; /* padding */
+        }
+
+        /* IMAGE */
+        img {
+            max-width: 100%; /* max-width */
+            border-radius: 15px; /* border-radius */
+            border: 3px solid #F8BBD0; /* bordure */
+            margin-top: 15px; /* margin */
+        }
+
+        /* LISTE D'AU MOINS 5 ÉLÉMENTS */
+        ul li {
+            margin-bottom: 12px; /* margin */
+            padding-left: 10px; /* padding */
+        }
+
+        /* TABLEAU 3 COLONNES 4 LIGNES */
+        table {
+            width: 100%; /* max-width */
+            border-collapse: collapse;
+            margin-top: 20px; /* margin */
+        }
+
+        th, td {
+            border: 2px solid #C2185B; /* bordure */
+            padding: 14px; /* padding */
+            text-align: center;
+        }
+
+        th {
+            background-color: #C2185B; /* couleur de fond */
+            color: white; /* couleur */
+        }
+
+        /* FORMULAIRE */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 18px; /* margin entre champs */
+            max-width: 500px; /* max-width */
+            margin: 0 auto;
+            padding: 20px; /* padding */
+        }
+
+        input {
+            padding: 12px; /* padding */
+            border: 2px solid #F8BBD0; /* bordure */
+            border-radius: 8px; /* border-radius */
+            font-family: 'Georgia', serif;
+        }
+
+        button {
+            background-color: #C2185B; /* couleur de fond */
+            color: white; /* couleur */
+            padding: 14px; /* padding */
+            border: none;
+            border-radius: 8px; /* border-radius */
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover { /* EFFET HOVER */
+            background-color: #880E4F; /* couleur au survol */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- 1. TITRE PRINCIPAL H1 -->
+        <h1>Beauté Naturelle 🌸</h1>
+
+        <!-- 2. MENU AVEC 4 LIENS -->
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Nos Produits</a></li>
+                <li><a href="#conseils">Conseils</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- 3. SECTION PRÉSENTATION + 4. IMAGE -->
+        <section id="accueil">
+            <h2>À propos de Beauté Naturelle</h2>
+            <p>Bienvenue chez Beauté Naturelle, votre marque de cosmétiques bio et naturels. Nous sélectionnons les meilleurs ingrédients pour révéler l'éclat de votre peau et la beauté de vos cheveux, avec respect et authenticité.</p>
+            <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800" alt="Produits cosmétiques naturels">
+        </section>
+
+        <!-- 5. LISTE D'AU MOINS 5 ÉLÉMENTS -->
+        <section id="produits">
+            <h2>Nos Gammes de Produits</h2>
+            <ul>
+                <li>Soins Visage : Crèmes, Sérums, Nettoyants</li>
+                <li>Soins Corps : Laits, Beurres, Gommages</li>
+                <li>Soins Cheveux : Shampoings, Masques, Huiles</li>
+                <li>Maquillage Bio : Fonds de teint, Rouges à lèvres</li>
+                <li>Coffrets Cadeaux : Idées personnalisées</li>
+            </ul>
+        </section>
+
+        <!-- 6. TABLEAU 3 COLONNES ET 4 LIGNES -->
+        <section>
+            <h2>Nos Produits Phares</h2>
+            <table>
+                <tr>
+                    <th>Produit</th>
+                    <th>Contenance</th>
+                    <th>Prix</th>
+                </tr>
+                <tr>
+                    <td>Beurre de Karité Pur</td>
+                    <td>250g</td>
+                    <td>8 000 FCFA</td>
+                </tr>
+                <tr>
+                    <td>Huile de Baobab</td>
+                    <td>100ml</td>
+                    <td>12 000 FCFA</td>
+                </tr>
+                <tr>
+                    <td>Sérum Vitamine C</td>
+                    <td>30ml</td>
+                    <td>18 000 FCFA</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 7. FORMULAIRE NOM EMAIL TELEPHONE BOUTON -->
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <input type="text" placeholder="Nom" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="tel" placeholder="Téléphone">
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+    </div>
+</body>
+</html>
